@@ -117,4 +117,3 @@ if name1 and name2:
     if uploaded_file is not None:
         st.image(uploaded_file, caption=f"Captured Moment by {name1} & {name2} ❤️", use_column_width=True)
         st.success("✨ Image locked successfully into the local vault memory!")
-
